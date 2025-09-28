@@ -1,15 +1,15 @@
 import Navbar from './components/Navbar'
-import Upper from './components/upper'
-import Middle from './components/middle'
+import Hero from './components/Hero'
+import Middle from './components/Middle'
 import Middle1 from './components/Middle1'
-import Middle2 from './components/middle2'
+import Middle2 from './components/Middle2'
 import Final from './components/Final'
 import Footer from './components/Footer'
 function App() {
   return (
     <main className='bg-white dark:bg-[#14213D] '>
       <Navbar />
-      <Upper />
+      <Hero />
       <Middle />
       <Middle1 />
       <Middle2 />
