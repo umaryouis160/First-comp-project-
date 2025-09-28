@@ -30,13 +30,13 @@ const Final = () => {
           {/* Light Mode Image */}
           <img
             className="w-full h-auto object-cover dark:hidden object-top"
-            src="public/pics/Galaxy.webp"
+            src="/pics/Galaxy.webp"
             alt="AI creativity tools illustration - light theme"
           />
           {/* Dark Mode Image */}
           <img
             className="w-full h-auto hidden dark:block object-cover object-top"
-            src="public/pics/tab.webp"
+            src="/pics/tab.webp"
             alt="AI creativity tools illustration - dark theme"
           />
         </div>

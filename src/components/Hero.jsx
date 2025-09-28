@@ -5,7 +5,7 @@ function Hero() {
     return (
         <>
             <div className="main absolute bg-white  flex items-center justify-center h-full w-full overflow-hidden dark:bg-[#14213D]/70 ">
-                <img className='absolute inset-0  h-[100%] w-[100%] text-transparent  top-0 left-0 right-0 bottom-0' src="public\pics\BG.webp" alt="pic" srcset="" />
+                <img className='absolute inset-0  h-[100%] w-[100%] text-transparent  top-0 left-0 right-0 bottom-0' src="\pics\BG.webp" alt="pic" srcset="" />
                 <div className='absolute h-180 inset-0 bg-white/20 dark:bg-[#14213D]/70 backdrop-blur-lg z-1 '></div>
                 <div className=' relative top-10  h-138 w-full flex items-center justify-center gap-85  z-2 '>
                     <div className="left px-[75px] py-[35px] h-90 w-150 flex flex-col gap-4  items-baseline ">
@@ -18,11 +18,11 @@ function Hero() {
                     </div>
                     <div className="right  h-[480px] w-[400px] ">
                         <div className=' w-[400px] h-[440px]   '>
-                            <img className='dark:hidden object-cover h-full w-full top-0 bottom-0 left-0 right-0 text-transparent ' src="public\pics\Bg2.webp" alt="" />
-                            <img className='hidden object-cover dark:block h-full w-full top-0 bottom-0 left-0 right-0 text-transparent ' src="public\pics\Bg3.webp" alt="" />
+                            <img className='dark:hidden object-cover h-full w-full top-0 bottom-0 left-0 right-0 text-transparent ' src="\pics\Bg2.webp" alt="" />
+                            <img className='hidden object-cover dark:block h-full w-full top-0 bottom-0 left-0 right-0 text-transparent ' src="\pics\Bg3.webp" alt="" />
                         </div>
                         <div className='absolute animate-[bounce 4s ease-in-out infinite] h-[1000px] w-[1000px] left-[500px] top-[-240px] '>
-                            <img className='object-contain drop-shadow-lg h-full w-full top-0 bottom-0 right-0 left-0 text-transparent ' src="public\pics\robo.webp" alt="" srcset="" />
+                            <img className='object-contain drop-shadow-lg h-full w-full top-0 bottom-0 right-0 left-0 text-transparent ' src="\pics\robo.webp" alt="" srcset="" />
                         </div>
                     </div>
                 </div>

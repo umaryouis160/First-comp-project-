@@ -47,12 +47,12 @@ const Middle2 = () => {
               <div className="absolute z-30 h-[480px] w-[380px] left-[320px] -translate-x-1/2 -top-[300px]">
                 <img
                   className="object-contain dark:hidden absolute h-full w-full object-bottom top-0 bottom-0 left-0 right-0"
-                  src="public/pics/Bg2.webp"
+                  src="/pics/Bg2.webp"
                   alt="Plan background light"
                 />
                 <img
                   className="object-contain object-bottom absolute hidden dark:block h-full w-full top-0 bottom-0 left-0 right-0"
-                  src="public/pics/Bg3.webp"
+                  src="/pics/Bg3.webp"
                   alt="Plan background dark"
                 />
               </div>
@@ -151,13 +151,13 @@ const Middle2 = () => {
         {/* Light mode image */}
         <img
           className="w-full h-auto dark:hidden object-cover object-top"
-          src="public/pics/style.webp"
+          src="/pics/style.webp"
           alt="Background style light"
         />
         {/* Dark mode image */}
         <img
           className="hidden dark:block w-full h-auto object-cover object-top"
-          src="public/pics/style1.webp"
+          src="/pics/style1.webp"
           alt="Background style dark"
         />
       </div>

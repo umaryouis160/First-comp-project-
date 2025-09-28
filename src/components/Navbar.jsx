@@ -62,7 +62,7 @@ const Navbar = () => {
             >
               {darkMode ? (
                 <img
-                src="public\pics\dark_mode_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
+                src="\pics\dark_mode_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"
                 alt="Dark Mode"
               />
               ) : (
