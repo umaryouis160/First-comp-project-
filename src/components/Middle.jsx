@@ -41,18 +41,18 @@ const Middle = () => {
         {/* Right Content (Images) */}
         <div className="relative h-[560px] w-[600px]">
           {/* Main Image */}
-          <div className="absolute left-[230px] top-[-10px] h-[560px] w-[400px]">
+          <div className="relative left-[230px] top-[-10px] h-[560px] w-[400px]">
             <img
-              className="h-full w-full object-contain"
+              className="h-full w-full object-contain z-1"
               src="/pics/comp1 pic.png"
               alt="Computer 1"
             />
           </div>
 
           {/* Secondary Floating Image */}
-          <div className="absolute top-[-400px] left-[190px] h-[240px] w-[280px]">
+          <div className="relative top-[-400px] left-[190px] h-[240px] w-[280px] ">
             <img
-              className="h-full w-full object-contain"
+              className="h-full w-full object-contain z-2"
               src="/pics/comp pic.png"
               alt="Computer 2"
             />
